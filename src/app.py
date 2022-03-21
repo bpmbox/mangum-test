@@ -1,4 +1,4 @@
-## ref: https://github.com/TatchNicolas/sls-mangum-fastapi/blob/master/exam_results/main.py
+### ref: https://github.com/TatchNicolas/sls-mangum-fastapi/blob/master/exam_results/main.py
 from fastapi import FastAPI, HTTPException
 from mangum import Mangum
 from pydantic import BaseModel
