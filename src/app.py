@@ -14,6 +14,7 @@ class HelloParam(BaseModel):
 
 @app.get("/hello")
 def get_hello(name: str = None):
+    print("test")
     """
     getで返事するsssssssssssssssssssssssssssssssssssssssssssssssssss
     """
