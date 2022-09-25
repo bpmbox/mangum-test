@@ -16,7 +16,7 @@ class HelloParam(BaseModel):
 def get_hello(name: str = None):
     print("test")
     """
-    getで返事するsssssssssssssssssssssssssssssssssssssssssssssssssss
+    getで返事するsssssssssssssssssssssssssssssssssssssssssssssssssssss
     """
     if name:
         message = f"[GET]hello, {name}!"
@@ -29,7 +29,7 @@ def get_hello(name: str = None):
 @app.post("/hello_post")
 def post_hello(param: HelloParam):
     """
-    postで返事する
+    postで返事するss
     """
     if param.name:
         message = f"[POST]hello, {param.name}!"
